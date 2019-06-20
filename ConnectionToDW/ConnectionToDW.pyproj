@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>971a0afc-fcee-4cfc-b36a-667ff96c717f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>ConnToNewDW.py</StartupFile>
+    <StartupFile>ConnectionToDW.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="ConnToNewDW.py" />
+    <Compile Include="ConnectionToDW.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
